@@ -5,3 +5,7 @@ edition = "2024"
 
 [dependencies]
 rand = "0.8.3"
+
+[[bin]]
+name = "guessing_game"
+path = "src/number-guessing.rs"
